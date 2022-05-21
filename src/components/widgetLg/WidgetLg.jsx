@@ -3,6 +3,6 @@ import './widgetLg.css'
 
 export default function WidgetLg() {
   return (
-    <div>WidgetLg</div>
+    <div className='widgetLg'>WidgetLg</div>
   )
 }
