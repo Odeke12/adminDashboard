@@ -49,3 +49,8 @@ export const userData = [
       },
 
   ];
+
+export const rows = [
+  { id: 1, username: 'Jon Snow', email: 'john@gmail.com', status: 'pending', transaction: '$123.0', avatar: process.env.PUBLIC_URL + "/profile.jpeg"},
+  { id: 2, username: 'Odeke Trevor', email: 'trevor@gmail.com', status: 'active', transaction: '$34.0', avatar: process.env.PUBLIC_URL + "/profile.jpeg"},
+];
