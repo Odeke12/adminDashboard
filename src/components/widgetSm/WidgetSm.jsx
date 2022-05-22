@@ -16,7 +16,40 @@ export default function WidgetSm() {
                     <span className="widgetSmUserTitle">Software Engineer</span>
                 </div>
                 <button className="widgetSmButton">
-                    <Visibility/>
+                    <Visibility className="widgetSmIcon"/>
+                    Display
+                </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src={process.env.PUBLIC_URL + "/profile.jpeg"} alt="" className='widgetSmImg'/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Odeke Trevor</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+                <button className="widgetSmButton">
+                    <Visibility className="widgetSmIcon"/>
+                    Display
+                </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src={process.env.PUBLIC_URL + "/profile.jpeg"} alt="" className='widgetSmImg'/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Odeke Trevor</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+                <button className="widgetSmButton">
+                    <Visibility className="widgetSmIcon"/>
+                    Display
+                </button>
+            </li>
+            <li className="widgetSmListItem">
+                <img src={process.env.PUBLIC_URL + "/profile.jpeg"} alt="" className='widgetSmImg'/>
+                <div className="widgetSmUser">
+                    <span className="widgetSmUsername">Odeke Trevor</span>
+                    <span className="widgetSmUserTitle">Software Engineer</span>
+                </div>
+                <button className="widgetSmButton">
+                    <Visibility className="widgetSmIcon"/>
                     Display
                 </button>
             </li>

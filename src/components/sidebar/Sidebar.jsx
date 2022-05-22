@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-import { LineStyle, TrendingUp, Timeline, Mail, Message } from '@mui/icons-material'
+import { LineStyle, TrendingUp, Timeline, Mail, Message, BarChart, Paid, Inventory, ChatBubbleOutline } from '@mui/icons-material'
 
 function Sidebar() {
   return (
@@ -26,24 +26,28 @@ function Sidebar() {
                 <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick  Menu</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
+                        <li className="sidebarListItem ">
                             <LineStyle className='sidebarIcon'/>
-                            Home
+                            Users
+                        </li>
+                        <li className="sidebarListItem ">
+                            <Inventory className='sidebarIcon'/>
+                            Products
                         </li>
                         <li className="sidebarListItem">
-                            <Timeline className='sidebarIcon'/>
-                            Time
+                            <Paid className='sidebarIcon'/>
+                            Transactions
                         </li>
                         <li className="sidebarListItem">  
-                            <TrendingUp className='sidebarIcon'/>
-                            Sales 
+                            <BarChart className='sidebarIcon'/>
+                            Reports 
                         </li>
                     </ul>
                 </div>
                 <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Notification</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
+                        <li className="sidebarListItem">
                             <Mail className='sidebarIcon'/>
                             Mail
                         </li>
@@ -52,10 +56,11 @@ function Sidebar() {
                             Feedback
                         </li>
                         <li className="sidebarListItem">  
-                            <Message className='sidebarIcon'/>
+                            <ChatBubbleOutline className='sidebarIcon'/>
                             Messages 
                         </li>
                     </ul>
+
                 </div>
         </div>
     </div>
